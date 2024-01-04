@@ -1,0 +1,69 @@
+<!-- add-mobile.component.html -->
+
+<h3 mat-dialog-title>{{ title }}</h3>
+<mat-divider></mat-divider>
+
+<mat-dialog-content [formGroup]="form" style="width: 800px;">
+ <br>
+   <b>Please enter mobile Information.</b>
+  <mat-grid-list cols="2">
+
+    <mat-grid-tile>
+      <div>
+        <mat-form-field>
+          <mat-label>Mobile ID:</mat-label>
+          <input matInput placeholder="Mob_1234" formControlName="mobile_id" required>
+          <mat-error *ngIf="form.get('mobile_id')?.invalid || form.get('mobile_id')?.dirty || form.get('mobile_id')?.touched">Enter Mobile ID</mat-error>
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>Mobile Model:</mat-label>
+          <input matInput placeholder="Xuxzio" formControlName="mobile_model" required>
+          <mat-error *ngIf="form.get('mobile_model')?.invalid || form.get('mobile_model')?.dirty || form.get('mobile_model')?.touched">Enter valid mobile model</mat-error>
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>Mobile Name:</mat-label>
+          <input matInput placeholder="Iphone XS Max" formControlName="mobile_name" required>
+          <mat-error *ngIf="form.get('mobile_name')?.invalid || form.get('mobile_name')?.dirty || form.get('mobile_name')?.touched">Enter valid Mobile name</mat-error>
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>Mobile Color:</mat-label>
+          <input matInput placeholder="Black" formControlName="mobile_color" required>
+          <mat-error *ngIf="form.get('mobile_color')?.invalid || form.get('mobile_color')?.dirty || form.get('mobile_color')?.touched">Enter valid mobile color</mat-error>
+        </mat-form-field>
+      </div>
+    </mat-grid-tile>
+
+    <mat-grid-tile>
+      <div>
+        <mat-label class="me-3">Sim-s:</mat-label>
+        <br>
+        <mat-radio-group aria-label="Select a number of sim" color="primary" formControlName="mobile_sim">
+          <mat-radio-button value="Single SIM">1 SIM</mat-radio-button>
+          <mat-radio-button value="Dual SIM">2 SIMs</mat-radio-button>
+          <mat-radio-button value="More then 2">More than 2 SIMs</mat-radio-button>
+        </mat-radio-group>
+
+        <mat-form-field class="mt-4">
+          <mat-label>Mobile Company</mat-label>
+          <mat-select formControlName="mobile_company" name="mobile_company">
+            <mat-option *ngFor="let mobiles of mobile_company" [value]="mobiles">
+              {{mobiles}}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+    </mat-grid-tile>
+
+  </mat-grid-list>
+
+</mat-dialog-content>
+
+
+
+<div mat-dialog-actions>
+    <button mat-raised-button mat-dialog-close (click)="cancelAddMobile()">Cancel</button>
+    <button mat-raised-button color="primary" mat-dialog-close cdkFocusInitial (click)="addMobile()" [disabled]="form.invalid">{{buttonName}} </button>
+  </div>

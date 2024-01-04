@@ -1,0 +1,25 @@
+<h2 style="font-weight: 400; margin-left: 16px;" class="m-3" color="primary">Customer Information</h2>
+<mat-card class="m-3">
+  <mat-card-title style="margin-left: 16px;">
+    <span>Mobile ID:</span>{{mobileObj?.mobile_id}}
+  </mat-card-title>
+  <mat-card-subtitle style="margin-left: 16px;">
+    <span>Mobile Name: </span>{{mobileObj?.mobile_name}}
+  </mat-card-subtitle>
+  <mat-divider></mat-divider>
+
+  <div class="row pt-3">
+    <div class="col-md-6">
+      <mat-card-content>
+        <span> Mobile Model : </span> {{mobileObj.mobile_model}} <br>
+        <span> Mobile Color : </span> {{mobileObj.mobile_color}} <br>
+      </mat-card-content>
+    </div>
+    <div class="col-md-6">
+      <mat-card-content>
+        <span> Mobile Sim : </span> {{mobileObj.mobile_sim}} <br>
+        <span> Mobile Company : </span> {{mobileObj.mobile_company}}
+      </mat-card-content>
+    </div>
+  </div>
+</mat-card>

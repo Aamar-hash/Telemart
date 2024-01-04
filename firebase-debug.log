@@ -1,0 +1,93 @@
+[debug] [2024-01-04T03:43:34.986Z] ----------------------------------------------------------------------
+[debug] [2024-01-04T03:43:34.989Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\GCA\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2024-01-04T03:43:34.989Z] CLI Version:   13.0.2
+[debug] [2024-01-04T03:43:34.989Z] Platform:      win32
+[debug] [2024-01-04T03:43:34.989Z] Node Version:  v20.10.0
+[debug] [2024-01-04T03:43:34.990Z] Time:          Thu Jan 04 2024 08:43:34 GMT+0500 (Pakistan Standard Time)
+[debug] [2024-01-04T03:43:34.990Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-04T03:43:35.070Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-04T03:43:35.071Z] > authorizing via signed-in user (aamarkhan863@gmail.com)
+[debug] [2024-01-04T03:43:35.071Z] [iam] checking project telemart-ae5f1 for permissions ["firebase.projects.get"]
+[debug] [2024-01-04T03:43:35.073Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/telemart-ae5f1:testIamPermissions [none]
+[debug] [2024-01-04T03:43:35.073Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/telemart-ae5f1:testIamPermissions x-goog-quota-user=projects/telemart-ae5f1
+[debug] [2024-01-04T03:43:35.073Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/telemart-ae5f1:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-01-04T03:43:39.017Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/telemart-ae5f1:testIamPermissions 200
+[debug] [2024-01-04T03:43:39.017Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/telemart-ae5f1:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-01-04T03:43:39.017Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/telemart-ae5f1 [none]
+[debug] [2024-01-04T03:43:44.762Z] ----------------------------------------------------------------------
+[debug] [2024-01-04T03:43:44.764Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\GCA\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2024-01-04T03:43:44.764Z] CLI Version:   13.0.2
+[debug] [2024-01-04T03:43:44.764Z] Platform:      win32
+[debug] [2024-01-04T03:43:44.765Z] Node Version:  v20.10.0
+[debug] [2024-01-04T03:43:44.765Z] Time:          Thu Jan 04 2024 08:43:44 GMT+0500 (Pakistan Standard Time)
+[debug] [2024-01-04T03:43:44.765Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-04T03:43:44.834Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-04T03:43:44.834Z] > authorizing via signed-in user (aamarkhan863@gmail.com)
+[debug] [2024-01-04T03:43:44.834Z] [iam] checking project telemart-ae5f1 for permissions ["firebase.projects.get"]
+[debug] [2024-01-04T03:43:44.836Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/telemart-ae5f1:testIamPermissions [none]
+[debug] [2024-01-04T03:43:44.837Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/telemart-ae5f1:testIamPermissions x-goog-quota-user=projects/telemart-ae5f1
+[debug] [2024-01-04T03:43:44.837Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/telemart-ae5f1:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-01-04T03:43:48.017Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/telemart-ae5f1:testIamPermissions 200
+[debug] [2024-01-04T03:43:48.018Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/telemart-ae5f1:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-01-04T03:43:48.018Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/telemart-ae5f1 [none]
+[debug] [2024-01-04T03:43:50.548Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/telemart-ae5f1 200
+[debug] [2024-01-04T03:43:50.548Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/telemart-ae5f1 {"projectId":"telemart-ae5f1","projectNumber":"176656174329","displayName":"Telemart","name":"projects/telemart-ae5f1","resources":{"hostingSite":"telemart-ae5f1","realtimeDatabaseInstance":"telemart-ae5f1-default-rtdb"},"state":"ACTIVE","etag":"1_dde47d42-811a-4491-98f5-06ac49e92141"}
+[info] 
+[info] === Serving from 'C:\Users\GCA\Desktop\Telemart\Telemart'...
+[info] 
+[debug] [2024-01-04T03:43:50.552Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/telemart-ae5f1/sites 
+[debug] [2024-01-04T03:43:54.043Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/telemart-ae5f1/sites 200
+[debug] [2024-01-04T03:43:54.043Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/telemart-ae5f1/sites {"sites":[{"name":"projects/telemart-ae5f1/sites/telemart-ae5f1","defaultUrl":"https://telemart-ae5f1.web.app","appId":"1:176656174329:web:b5e6d30614af7db41ae628","type":"DEFAULT_SITE"}]}
+[debug] [2024-01-04T03:43:54.043Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/telemart-ae5f1/webApps/1:176656174329:web:b5e6d30614af7db41ae628/config [none]
+[debug] [2024-01-04T03:43:55.040Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/telemart-ae5f1/webApps/1:176656174329:web:b5e6d30614af7db41ae628/config 200
+[debug] [2024-01-04T03:43:55.041Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/telemart-ae5f1/webApps/1:176656174329:web:b5e6d30614af7db41ae628/config {"projectId":"telemart-ae5f1","appId":"1:176656174329:web:b5e6d30614af7db41ae628","databaseURL":"https://telemart-ae5f1-default-rtdb.firebaseio.com","storageBucket":"telemart-ae5f1.appspot.com","apiKey":"AIzaSyDK5bcm1PBh2a0AMsIuZJTQXYrn7uuDRkg","authDomain":"telemart-ae5f1.firebaseapp.com","messagingSenderId":"176656174329"}
+[debug] [2024-01-04T03:43:55.047Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/telemart-ae5f1 [none]
+[debug] [2024-01-04T03:43:56.042Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/telemart-ae5f1 200
+[debug] [2024-01-04T03:43:56.042Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/telemart-ae5f1 {"projectId":"telemart-ae5f1","projectNumber":"176656174329","displayName":"Telemart","name":"projects/telemart-ae5f1","resources":{"hostingSite":"telemart-ae5f1","realtimeDatabaseInstance":"telemart-ae5f1-default-rtdb"},"state":"ACTIVE","etag":"1_dde47d42-811a-4491-98f5-06ac49e92141"}
+[info] i  hosting[telemart-ae5f1]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting[telemart-ae5f1]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: ::1 - - [04/Jan/2024:03:44:15 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [04/Jan/2024:03:44:15 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0\""}}
+[debug] [2024-01-04T03:44:15.982Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js [none]
+[debug] [2024-01-04T03:44:15.986Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js [none]
+[debug] [2024-01-04T03:44:15.991Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js [none]
+[debug] [2024-01-04T03:44:15.997Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/10.7.1/firebase-database-compat.js [none]
+[debug] [2024-01-04T03:44:15.999Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/10.7.1/firebase-functions-compat.js [none]
+[debug] [2024-01-04T03:44:16.002Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/10.7.1/firebase-messaging-compat.js [none]
+[debug] [2024-01-04T03:44:17.432Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js 200
+[debug] [2024-01-04T03:44:17.432Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js [stream]
+[debug] [2024-01-04T03:44:17.461Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js 200
+[debug] [2024-01-04T03:44:17.461Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js [stream]
+[info] i  hosting: ::1 - - [04/Jan/2024:03:44:17 +0000] "GET /__/firebase/10.7.1/firebase-app-compat.js HTTP/1.1" 200 9349 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [04/Jan/2024:03:44:17 +0000] \"GET /__/firebase/10.7.1/firebase-app-compat.js HTTP/1.1\" 200 9349 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0\""}}
+[debug] [2024-01-04T03:44:17.469Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js 200
+[debug] [2024-01-04T03:44:17.469Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js [stream]
+[debug] [2024-01-04T03:44:17.471Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/10.7.1/firebase-storage-compat.js [none]
+[debug] [2024-01-04T03:44:17.561Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/10.7.1/firebase-messaging-compat.js 200
+[debug] [2024-01-04T03:44:17.561Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/10.7.1/firebase-messaging-compat.js [stream]
+[info] i  hosting: ::1 - - [04/Jan/2024:03:44:17 +0000] "GET /__/firebase/10.7.1/firebase-auth-compat.js HTTP/1.1" 200 39095 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [04/Jan/2024:03:44:17 +0000] \"GET /__/firebase/10.7.1/firebase-auth-compat.js HTTP/1.1\" 200 39095 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0\""}}
+[debug] [2024-01-04T03:44:17.565Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/10.7.1/firebase-storage-compat.js 200
+[debug] [2024-01-04T03:44:17.566Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/10.7.1/firebase-storage-compat.js [stream]
+[debug] [2024-01-04T03:44:17.567Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics-compat.js [none]
+[info] i  hosting: ::1 - - [04/Jan/2024:03:44:17 +0000] "GET /__/firebase/10.7.1/firebase-messaging-compat.js HTTP/1.1" 200 9995 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [04/Jan/2024:03:44:17 +0000] \"GET /__/firebase/10.7.1/firebase-messaging-compat.js HTTP/1.1\" 200 9995 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0\""}}
+[info] i  hosting: ::1 - - [04/Jan/2024:03:44:17 +0000] "GET /__/firebase/10.7.1/firebase-storage-compat.js HTTP/1.1" 200 12989 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [04/Jan/2024:03:44:17 +0000] \"GET /__/firebase/10.7.1/firebase-storage-compat.js HTTP/1.1\" 200 12989 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0\""}}
+[debug] [2024-01-04T03:44:17.615Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/10.7.1/firebase-remote-config-compat.js [none]
+[debug] [2024-01-04T03:44:17.616Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/10.7.1/firebase-performance-compat.js [none]
+[debug] [2024-01-04T03:44:17.657Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/10.7.1/firebase-functions-compat.js 200
+[debug] [2024-01-04T03:44:17.657Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/10.7.1/firebase-functions-compat.js [stream]
+[info] i  hosting: ::1 - - [04/Jan/2024:03:44:17 +0000] "GET /__/firebase/10.7.1/firebase-functions-compat.js HTTP/1.1" 200 3253 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [04/Jan/2024:03:44:17 +0000] \"GET /__/firebase/10.7.1/firebase-functions-compat.js HTTP/1.1\" 200 3253 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0\""}}
+[debug] [2024-01-04T03:44:17.661Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/10.7.1/firebase-database-compat.js 200
+[debug] [2024-01-04T03:44:17.661Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/10.7.1/firebase-database-compat.js [stream]
+[info] i  hosting: ::1 - - [04/Jan/2024:03:44:17 +0000] "GET /__/firebase/init.js?useEmulator=true HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [04/Jan/2024:03:44:17 +0000] \"GET /__/firebase/init.js?useEmulator=true HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0\""}}
+[debug] [2024-01-04T03:44:17.703Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics-compat.js 200
+[debug] [2024-01-04T03:44:17.703Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics-compat.js [stream]
+[info] i  hosting: ::1 - - [04/Jan/2024:03:44:17 +0000] "GET /__/firebase/10.7.1/firebase-analytics-compat.js HTTP/1.1" 200 9216 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [04/Jan/2024:03:44:17 +0000] \"GET /__/firebase/10.7.1/firebase-analytics-compat.js HTTP/1.1\" 200 9216 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0\""}}
+[debug] [2024-01-04T03:44:17.751Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/10.7.1/firebase-performance-compat.js 200
+[debug] [2024-01-04T03:44:17.752Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/10.7.1/firebase-performance-compat.js [stream]
+[info] i  hosting: ::1 - - [04/Jan/2024:03:44:17 +0000] "GET /__/firebase/10.7.1/firebase-performance-compat.js HTTP/1.1" 200 10251 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [04/Jan/2024:03:44:17 +0000] \"GET /__/firebase/10.7.1/firebase-performance-compat.js HTTP/1.1\" 200 10251 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0\""}}
+[info] i  hosting: ::1 - - [04/Jan/2024:03:44:17 +0000] "GET /__/firebase/10.7.1/firebase-firestore-compat.js HTTP/1.1" 200 100905 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [04/Jan/2024:03:44:17 +0000] \"GET /__/firebase/10.7.1/firebase-firestore-compat.js HTTP/1.1\" 200 100905 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0\""}}
+[debug] [2024-01-04T03:44:17.996Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/10.7.1/firebase-remote-config-compat.js 200
+[debug] [2024-01-04T03:44:17.996Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/10.7.1/firebase-remote-config-compat.js [stream]
+[info] i  hosting: ::1 - - [04/Jan/2024:03:44:17 +0000] "GET /__/firebase/10.7.1/firebase-database-compat.js HTTP/1.1" 200 47958 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [04/Jan/2024:03:44:17 +0000] \"GET /__/firebase/10.7.1/firebase-database-compat.js HTTP/1.1\" 200 47958 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0\""}}
+[info] i  hosting: ::1 - - [04/Jan/2024:03:44:18 +0000] "GET /__/firebase/10.7.1/firebase-remote-config-compat.js HTTP/1.1" 200 8814 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [04/Jan/2024:03:44:18 +0000] \"GET /__/firebase/10.7.1/firebase-remote-config-compat.js HTTP/1.1\" 200 8814 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0\""}}
+[info] i  hosting: ::1 - - [04/Jan/2024:03:44:18 +0000] "GET /favicon.ico HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [04/Jan/2024:03:44:18 +0000] \"GET /favicon.ico HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0\""}}
